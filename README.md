@@ -9,8 +9,6 @@ zonder fatsoenlijke goedkeuring van de hond. 🐶❤️
 
 🦴 **Tweetalig (NL / EN)** · 🐩 **Volledig responsive** · 🦮 **Geen build, geen framework** · 🐕 **Klaar voor Strato**
 
-### 🔗 [**Live demo → pwintri2.github.io/DoggyDate**](https://pwintri2.github.io/DoggyDate/) 🐾
-
 </div>
 
 ---
@@ -111,13 +109,12 @@ $FROM = 'info@wintrip.nl';     // 🐕 moet op je eigen domein staan
 - 🦴 **Prijzen/diensten:** prijzen in `js/i18n.js` (`svc.*.price`); de dienstdefinities in `js/app.js` (`SERVICES`)
 - 📬 **Ontvanger:** `info@wintrip.nl` in `send.php` (`$TO`) en `js/app.js` (`BOOKING_EMAIL`)
 
-## 🐾 Live preview vs. echt versturen
+## 🐾 Preview vs. echt versturen
 
-De **[live demo op GitHub Pages](https://pwintri2.github.io/DoggyDate/)** laat
-het volledige ontwerp en de boekingsflow zien. Let op: GitHub Pages draait
-**geen PHP**, dus op de demo valt het versturen terug op een `mailto:`-link.
-Het écht per e-mail binnenkrijgen van boekingen werkt pas op je
-**Strato-hosting** (waar `send.php` draait). 🐕📧
+Lokaal (of op elke host zonder PHP) zie je het volledige ontwerp en de
+boekingsflow, maar valt het versturen terug op een `mailto:`-link. Het écht
+per e-mail binnenkrijgen van boekingen werkt pas op je **Strato-hosting**
+(waar `send.php` draait). 🐕📧
 
 ## 📄 Licentie
 

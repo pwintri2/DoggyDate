@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doggy Date 🐾 — Find Love, Paws First</title>
+  <meta name="description" content="Doggy Date — the dating app where dogs set the standards. Book a supervised, treat-filled date and let the pups break the ice.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="brand">🐾 Doggy Date</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" aria-current="page" data-i18n="nav.home"></a>
+        <a href="services.html" data-i18n="nav.services"></a>
+        <a href="how-it-works.html" data-i18n="nav.how"></a>
+        <a href="guarantee.html" data-i18n="nav.guarantee"></a>
+      </nav>
+      <div class="header-actions">
+        <div class="lang-toggle" role="group" aria-label="Language / Taal">
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" data-lang="nl" aria-pressed="false">NL</button>
+        </div>
+        <button type="button" class="btn hide-on-mobile" data-book data-service="walk" data-i18n="nav.book"></button>
+        <button type="button" class="nav-burger" data-burger aria-expanded="false" aria-controls="mobileNav" data-i18n-aria="nav.menu" aria-label="Menu">☰</button>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="mobile-nav" id="mobileNav" data-mobile-nav aria-label="Mobile">
+        <a href="index.html" aria-current="page" data-i18n="nav.home"></a>
+        <a href="services.html" data-i18n="nav.services"></a>
+        <a href="how-it-works.html" data-i18n="nav.how"></a>
+        <a href="guarantee.html" data-i18n="nav.guarantee"></a>
+        <button type="button" class="btn" data-book data-service="walk" data-i18n="nav.book"></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero__paws" aria-hidden="true">
+        <span class="hero__paw" style="top:12%;left:8%;animation-delay:0s">🐾</span>
+        <span class="hero__paw" style="top:22%;left:82%;animation-delay:0.8s">🐕</span>
+        <span class="hero__paw" style="top:60%;left:6%;animation-delay:1.6s">🐩</span>
+        <span class="hero__paw" style="top:70%;left:88%;animation-delay:0.4s">🦮</span>
+        <span class="hero__paw" style="top:38%;left:15%;animation-delay:2.2s">🐾</span>
+        <span class="hero__paw" style="top:8%;left:55%;animation-delay:1.2s">🐕‍🦺</span>
+        <span class="hero__paw" style="top:80%;left:40%;animation-delay:2.8s">🐾</span>
+        <span class="hero__paw" style="top:48%;left:72%;animation-delay:0.6s">🐕</span>
+      </div>
+      <div class="container hero__content">
+        <span class="badge">
+          <span class="wag" aria-hidden="true">🐕</span>
+          <span data-i18n="hero.badge"></span>
+        </span>
+        <h1>
+          <span data-i18n="hero.title1"></span><br>
+          <span class="line2" data-i18n="hero.title2"></span>
+        </h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+        <button type="button" class="btn btn--lg" data-book data-service="walk" data-i18n="hero.cta"></button>
+        <p class="hero__trust" data-i18n="hero.trust"></p>
+      </div>
+    </section>
+
+    <!-- ===== Quicklinks ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-i18n="home.quick.eyebrow"></span>
+          <h2 data-i18n="home.quick.title"></h2>
+          <p data-i18n="home.quick.subtitle"></p>
+        </div>
+        <div class="grid grid--3">
+          <a class="quicklink" href="services.html">
+            <span class="emoji" aria-hidden="true">🦴</span>
+            <h3 data-i18n="home.quick.services.title"></h3>
+            <p data-i18n="home.quick.services.desc"></p>
+            <span class="more" data-i18n="home.quick.more"></span>
+          </a>
+          <a class="quicklink" href="how-it-works.html">
+            <span class="emoji" aria-hidden="true">🐾</span>
+            <h3 data-i18n="home.quick.how.title"></h3>
+            <p data-i18n="home.quick.how.desc"></p>
+            <span class="more" data-i18n="home.quick.more"></span>
+          </a>
+          <a class="quicklink" href="guarantee.html">
+            <span class="emoji" aria-hidden="true">🛡️</span>
+            <h3 data-i18n="home.quick.guarantee.title"></h3>
+            <p data-i18n="home.quick.guarantee.desc"></p>
+            <span class="more" data-i18n="home.quick.more"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA banner ===== -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta-banner">
+          <h2 data-i18n="home.cta.title"></h2>
+          <p data-i18n="home.cta.subtitle"></p>
+          <a class="btn btn--lg" href="services.html" data-i18n="home.cta.button"></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="main" data-i18n="footer.main"></p>
+      <p class="sub" data-i18n="footer.sub"></p>
+      <p class="legal" data-i18n="footer.legal"></p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
